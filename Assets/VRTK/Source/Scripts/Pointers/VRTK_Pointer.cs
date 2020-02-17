@@ -332,6 +332,12 @@ namespace VRTK
 
         protected virtual void Update()
         {
+            //On desactive la teleportation pour ce type de pointeur
+
+            //enable teleport = false
+            //teleport = GetComponent<Teleporters>();
+            //GetComponent<Teleporters>().enabled = false;
+
             AttemptControllerSetup();
             CheckButtonSubscriptions();
             HandleEnabledPointer();
@@ -666,7 +672,7 @@ namespace VRTK
         {
             return (givenInteractableObject != null && givenInteractableObject.pointerActivatesUseAction && (!ControllerRequired() || givenInteractableObject.IsValidInteractableController(controllerEvents.gameObject, givenInteractableObject.allowedUseControllers)));
         }
-
+        
         protected virtual void StartUseAction(Transform target)
         {
             pointerInteractableObject = target.GetComponent<VRTK_InteractableObject>();
