@@ -71,6 +71,8 @@ namespace VRTK
         [ObsoleteInspector]
         public VRTK_ControllerEvents controller;
 
+        
+        
         /// <summary>
         /// Emitted when the pointer activation button is pressed.
         /// </summary>
@@ -334,9 +336,8 @@ namespace VRTK
         {
             //On desactive la teleportation pour ce type de pointeur
 
-            //enable teleport = false
-            //teleport = GetComponent<Teleporters>();
-            //GetComponent<Teleporters>().enabled = false;
+            //teleporter.setActive(false);
+            
 
             AttemptControllerSetup();
             CheckButtonSubscriptions();
@@ -675,6 +676,7 @@ namespace VRTK
         
         protected virtual void StartUseAction(Transform target)
         {
+            
             pointerInteractableObject = target.GetComponent<VRTK_InteractableObject>();
             bool cannotUseBecauseNotGrabbed = (pointerInteractableObject && pointerInteractableObject.useOnlyIfGrabbed && !pointerInteractableObject.IsGrabbed());
 
