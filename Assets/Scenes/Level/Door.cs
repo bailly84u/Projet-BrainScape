@@ -6,6 +6,7 @@ public class Door : MonoBehaviour
 {
     public GameObject door;
     public GameObject dooropen;
+    public GameObject room2;
 
     //public string animationName;
     //Animator anim;
@@ -30,6 +31,7 @@ public class Door : MonoBehaviour
             //Debug.Log("Collision detected");
             door.SetActive(false);
             dooropen.SetActive(true);
+            room2.SetActive(true);
         }
     }
 }
