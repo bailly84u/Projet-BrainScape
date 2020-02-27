@@ -43,7 +43,7 @@ public class Door : MonoBehaviour
             room2.SetActive(true);
         }
     }
-    void OnCollisionEnter(Collision col)
+    /*void OnCollisionEnter(Collision col)
     {
         
         if (col.gameObject.name == "Cle1")
@@ -54,6 +54,6 @@ public class Door : MonoBehaviour
             dooropen.SetActive(true);
             room2.SetActive(true);
         }
-    }
+    }*/
 
 }
