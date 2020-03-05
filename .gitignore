@@ -3,3 +3,6 @@ Temp/
 ProjectSettings/ProjectSettings.asset
 ProjectSettings/ProjectVersion.txt
 ProjectSettings/UnityConnectSettings.asset
+Packages/manifest.json
+Packages/manifest.json
+Logs/Packages-Update.log
