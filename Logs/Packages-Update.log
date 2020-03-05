@@ -81,12 +81,13 @@ Update Mode: updateDependencies
 The following packages were updated:
   com.unity.timeline from version 1.2.10 to 1.2.12
 
-=== Thu Mar  5 13:32:34 2020
+
+Thu Mar  5 13:32:34 2020
 
 Packages were changed.
 Update Mode: updateDependencies
 
 The following packages were added:
+  com.unity.ads@2.0.8
   com.unity.analytics@3.3.5
   com.unity.purchasing@2.0.6
-  com.unity.ads@2.0.8
