@@ -5,7 +5,7 @@ public class SceneChanger : MonoBehaviour
 {
     public void goLevel1()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level1Real");
     }
 
     public void returnMenu()

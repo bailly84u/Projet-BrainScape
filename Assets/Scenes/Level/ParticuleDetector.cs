@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class ParticuleDetector : MonoBehaviour
 {
-    [HideInInspector]
+    
     public int compteurSolide1;
     public int compteurSolide2;
     public int compteurSolide3;
+    [HideInInspector]
     public int compteurSolide4;
     public GameObject ModeleSolidePlein;
 
